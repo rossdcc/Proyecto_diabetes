@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <record>
+    <field name="admission_type_id">1</field>
+    <field name="description">Emergency</field>
+  </record>
+  <record>
+    <field name="admission_type_id">2</field>
+    <field name="description">Urgent</field>
+  </record>
+  <record>
+    <field name="admission_type_id">3</field>
+    <field name="description">Elective</field>
+  </record>
+  <record>
+    <field name="admission_type_id">4</field>
+    <field name="description">Newborn</field>
+  </record>
+  <record>
+    <field name="admission_type_id">5</field>
+    <field name="description">Not Available</field>
+  </record>
+  <record>
+    <field name="admission_type_id">6</field>
+    <field name="description">NULL</field>
+  </record>
+  <record>
+    <field name="admission_type_id">7</field>
+    <field name="description">Trauma Center</field>
+  </record>
+  <record>
+    <field name="admission_type_id">8</field>
+    <field name="description">Not Mapped</field>
+  </record>
+  <record>
+    <field name="admission_type_id">
+    </field>
+    <field name="description">
+    </field>
+  </record>
+  <record>
+    <field name="admission_type_id">discharge_disposition_id</field>
+    <field name="description">description</field>
+  </record>
+  <record>
+    <field name="admission_type_id">1</field>
+    <field name="description">Discharged to home</field>
+  </record>
+  <record>
+    <field name="admission_type_id">2</field>
+    <field name="description">Discharged/transferred to another short term hospital</field>
+  </record>
+  <record>
+    <field name="admission_type_id">3</field>
+    <field name="description">Discharged/transferred to SNF</field>
+  </record>
+  <record>
+    <field name="admission_type_id">4</field>
+    <field name="description">Discharged/transferred to ICF</field>
+  </record>
+  <record>
+    <field name="admission_type_id">5</field>
+    <field name="description">Discharged/transferred to another type of inpatient care institution</field>
+  </record>
+  <record>
+    <field name="admission_type_id">6</field>
+    <field name="description">Discharged/transferred to home with home health service</field>
+  </record>
+  <record>
+    <field name="admission_type_id">7</field>
+    <field name="description">Left AMA</field>
+  </record>
+  <record>
+    <field name="admission_type_id">8</field>
+    <field name="description">Discharged/transferred to home under care of Home IV provider</field>
+  </record>
+  <record>
+    <field name="admission_type_id">9</field>
+    <field name="description">Admitted as an inpatient to this hospital</field>
+  </record>
+  <record>
+    <field name="admission_type_id">10</field>
+    <field name="description">Neonate discharged to another hospital for neonatal aftercare</field>
+  </record>
+  <record>
+    <field name="admission_type_id">11</field>
+    <field name="description">Expired</field>
+  </record>
+  <record>
+    <field name="admission_type_id">12</field>
+    <field name="description">Still patient or expected to return for outpatient services</field>
+  </record>
+  <record>
+    <field name="admission_type_id">13</field>
+    <field name="description">Hospice / home</field>
+  </record>
+  <record>
+    <field name="admission_type_id">14</field>
+    <field name="description">Hospice / medical facility</field>
+  </record>
+  <record>
+    <field name="admission_type_id">15</field>
+    <field name="description">Discharged/transferred within this institution to Medicare approved swing bed</field>
+  </record>
+  <record>
+    <field name="admission_type_id">16</field>
+    <field name="description">Discharged/transferred/referred another institution for outpatient services</field>
+  </record>
+  <record>
+    <field name="admission_type_id">17</field>
+    <field name="description">Discharged/transferred/referred to this institution for outpatient services</field>
+  </record>
+  <record>
+    <field name="admission_type_id">18</field>
+    <field name="description">NULL</field>
+  </record>
+  <record>
+    <field name="admission_type_id">19</field>
+    <field name="description">Expired at home. Medicaid only, hospice.</field>
+  </record>
+  <record>
+    <field name="admission_type_id">20</field>
+    <field name="description">Expired in a medical facility. Medicaid only, hospice.</field>
+  </record>
+  <record>
+    <field name="admission_type_id">21</field>
+    <field name="description">Expired, place unknown. Medicaid only, hospice.</field>
+  </record>
+  <record>
+    <field name="admission_type_id">22</field>
+    <field name="description">Discharged/transferred to another rehab fac including rehab units of a hospital .</field>
+  </record>
+  <record>
+    <field name="admission_type_id">23</field>
+    <field name="description">Discharged/transferred to a long term care hospital.</field>
+  </record>
+  <record>
+    <field name="admission_type_id">24</field>
+    <field name="description">Discharged/transferred to a nursing facility certified under Medicaid but not certified under Medicare.</field>
+  </record>
+  <record>
+    <field name="admission_type_id">25</field>
+    <field name="description">Not Mapped</field>
+  </record>
+  <record>
+    <field name="admission_type_id">26</field>
+    <field name="description">Unknown/Invalid</field>
+  </record>
+  <record>
+    <field name="admission_type_id">30</field>
+    <field name="description">Discharged/transferred to another Type of Health Care Institution not Defined Elsewhere</field>
+  </record>
+  <record>
+    <field name="admission_type_id">27</field>
+    <field name="description">Discharged/transferred to a federal health care facility.</field>
+  </record>
+  <record>
+    <field name="admission_type_id">28</field>
+    <field name="description">Discharged/transferred/referred to a psychiatric hospital of psychiatric distinct part unit of a hospital</field>
+  </record>
+  <record>
+    <field name="admission_type_id">29</field>
+    <field name="description">Discharged/transferred to a Critical Access Hospital (CAH).</field>
+  </record>
+  <record>
+    <field name="admission_type_id">
+    </field>
+    <field name="description">
+    </field>
+  </record>
+  <record>
+    <field name="admission_type_id">admission_source_id</field>
+    <field name="description">description</field>
+  </record>
+  <record>
+    <field name="admission_type_id">1</field>
+    <field name="description">Physician Referral</field>
+  </record>
+  <record>
+    <field name="admission_type_id">2</field>
+    <field name="description">Clinic Referral</field>
+  </record>
+  <record>
+    <field name="admission_type_id">3</field>
+    <field name="description">HMO Referral</field>
+  </record>
+  <record>
+    <field name="admission_type_id">4</field>
+    <field name="description">Transfer from a hospital</field>
+  </record>
+  <record>
+    <field name="admission_type_id">5</field>
+    <field name="description">Transfer from a Skilled Nursing Facility (SNF)</field>
+  </record>
+  <record>
+    <field name="admission_type_id">6</field>
+    <field name="description">Transfer from another health care facility</field>
+  </record>
+  <record>
+    <field name="admission_type_id">7</field>
+    <field name="description">Emergency Room</field>
+  </record>
+  <record>
+    <field name="admission_type_id">8</field>
+    <field name="description">Court/Law Enforcement</field>
+  </record>
+  <record>
+    <field name="admission_type_id">9</field>
+    <field name="description">Not Available</field>
+  </record>
+  <record>
+    <field name="admission_type_id">10</field>
+    <field name="description">Transfer from critial access hospital</field>
+  </record>
+  <record>
+    <field name="admission_type_id">11</field>
+    <field name="description">Normal Delivery</field>
+  </record>
+  <record>
+    <field name="admission_type_id">12</field>
+    <field name="description">Premature Delivery</field>
+  </record>
+  <record>
+    <field name="admission_type_id">13</field>
+    <field name="description">Sick Baby</field>
+  </record>
+  <record>
+    <field name="admission_type_id">14</field>
+    <field name="description">Extramural Birth</field>
+  </record>
+  <record>
+    <field name="admission_type_id">15</field>
+    <field name="description">Not Available</field>
+  </record>
+  <record>
+    <field name="admission_type_id">17</field>
+    <field name="description">NULL</field>
+  </record>
+  <record>
+    <field name="admission_type_id">18</field>
+    <field name="description">Transfer From Another Home Health Agency</field>
+  </record>
+  <record>
+    <field name="admission_type_id">19</field>
+    <field name="description">Readmission to Same Home Health Agency</field>
+  </record>
+  <record>
+    <field name="admission_type_id">20</field>
+    <field name="description">Not Mapped</field>
+  </record>
+  <record>
+    <field name="admission_type_id">21</field>
+    <field name="description">Unknown/Invalid</field>
+  </record>
+  <record>
+    <field name="admission_type_id">22</field>
+    <field name="description">Transfer from hospital inpt/same fac reslt in a sep claim</field>
+  </record>
+  <record>
+    <field name="admission_type_id">23</field>
+    <field name="description">Born inside this hospital</field>
+  </record>
+  <record>
+    <field name="admission_type_id">24</field>
+    <field name="description">Born outside this hospital</field>
+  </record>
+  <record>
+    <field name="admission_type_id">25</field>
+    <field name="description">Transfer from Ambulatory Surgery Center</field>
+  </record>
+  <record>
+    <field name="admission_type_id">26</field>
+    <field name="description">Transfer from Hospice</field>
+  </record>
+</dataset>
