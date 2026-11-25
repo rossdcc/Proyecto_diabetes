@@ -1,0 +1,51 @@
+﻿variable,tipo_conceptual,Valores unicos,descripcion,tipo_fisico,unidad_o_categorias,papel
+encounter_id,identificador,101766,Número único de cada ingreso hospitalario.,entero,Sin unidad,identificador
+patient_nbr,identificador,71518,Número único de cada paciente. Se repite si el paciente tuvo varios ingresos.,entero,Sin unidad,identificador
+race,nominal,5,Raza o etnia reportada del paciente.,texto,"AfricanAmerican, Asian, Caucasian, Hispanic, Other",predictora
+gender,nominal,3,Género del paciente.,texto,"Female, Male, Unknown/Invalid",predictora
+age,ordinal,10,"Grupo de edad del paciente, en intervalos de 10 años.",texto,"[0-10), [10-20), [20-30), [30-40), [40-50), [50-60), [60-70), [70-80), [80-90), [90-100)",predictora
+weight,ordinal,9,Rango de peso del paciente. Casi todos los valores faltan.,texto,">200, [0-25), [100-125), [125-150), [150-175), [175-200), [25-50), [50-75), [75-100)",candidata a excluir (muchos faltantes)
+admission_type_id,nominal,8,"Código del tipo de admisión (emergencia, urgente, electiva, etc.).",decimal,"1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0",predictora
+discharge_disposition_id,nominal,26,"Código del destino del paciente al alta (casa, otro centro, fallecido, cuidados paliativos, etc.).",decimal,26 categorías,predictora
+admission_source_id,nominal,17,"Código del origen del paciente al ingresar (urgencias, derivación médica, otro hospital, etc.).",decimal,17 categorías,predictora
+time_in_hospital,discreta,14,Días de hospitalización en este ingreso (de 1 a 14).,decimal,días (rango 1.0 a 14.0),predictora
+payer_code,nominal,17,Código del tipo de seguro o entidad que paga la atención.,texto,17 categorías,predictora
+medical_specialty,nominal,72,Especialidad médica del profesional que admitió al paciente.,texto,72 categorías,predictora
+num_lab_procedures,discreta,118,Número de pruebas de laboratorio realizadas durante el ingreso.,decimal,pruebas (conteo) (rango 1.0 a 132.0),predictora
+num_procedures,discreta,7,Número de procedimientos (distintos de laboratorio) realizados durante el ingreso.,decimal,procedimientos (conteo) (rango 0.0 a 6.0),predictora
+num_medications,discreta,75,Número de medicamentos distintos administrados durante el ingreso.,decimal,medicamentos (conteo) (rango 1.0 a 81.0),predictora
+number_outpatient,discreta,39,Visitas ambulatorias del paciente en el año anterior al ingreso.,decimal,visitas (conteo) (rango 0.0 a 42.0),predictora
+number_emergency,discreta,33,Visitas a urgencias del paciente en el año anterior al ingreso.,decimal,visitas (conteo) (rango 0.0 a 76.0),predictora
+number_inpatient,discreta,21,Hospitalizaciones del paciente en el año anterior al ingreso.,decimal,hospitalizaciones (conteo) (rango 0.0 a 21.0),predictora
+diag_1,nominal,715,"Diagnóstico principal del ingreso, en código CIE-9.",texto,715 categorías,predictora
+diag_2,nominal,742,"Primer diagnóstico secundario del ingreso, en código CIE-9.",texto,742 categorías,predictora
+diag_3,nominal,781,"Segundo diagnóstico secundario del ingreso, en código CIE-9.",texto,781 categorías,predictora
+number_diagnoses,discreta,16,Número de diagnósticos registrados en el ingreso.,decimal,diagnósticos (conteo) (rango 1.0 a 16.0),predictora
+max_glu_serum,ordinal,4,Resultado de la prueba de glucosa en suero (None = no se midió).,texto,">200, >300, None, Norm",predictora
+A1Cresult,ordinal,4,"Resultado de la prueba de HbA1c, que refleja el control de glucosa de los últimos meses (None = no se midió).",texto,">7, >8, None, Norm",predictora
+metformin,nominal,4,"Si se administró metformin y cómo cambió la dosis durante el ingreso (No, Down, Steady, Up).",texto,"Down, No, Steady, Up",predictora
+repaglinide,nominal,4,"Si se administró repaglinide y cómo cambió la dosis durante el ingreso (No, Down, Steady, Up).",texto,"Down, No, Steady, Up",predictora
+nateglinide,nominal,4,"Si se administró nateglinide y cómo cambió la dosis durante el ingreso (No, Down, Steady, Up).",texto,"Down, No, Steady, Up",predictora
+chlorpropamide,nominal,4,"Si se administró chlorpropamide y cómo cambió la dosis durante el ingreso (No, Down, Steady, Up).",texto,"Down, No, Steady, Up",predictora
+glimepiride,nominal,4,"Si se administró glimepiride y cómo cambió la dosis durante el ingreso (No, Down, Steady, Up).",texto,"Down, No, Steady, Up",predictora
+acetohexamide,nominal,2,"Si se administró acetohexamide y cómo cambió la dosis durante el ingreso (No, Down, Steady, Up).",texto,"No, Steady",predictora
+glipizide,nominal,4,"Si se administró glipizide y cómo cambió la dosis durante el ingreso (No, Down, Steady, Up).",texto,"Down, No, Steady, Up",predictora
+glyburide,nominal,4,"Si se administró glyburide y cómo cambió la dosis durante el ingreso (No, Down, Steady, Up).",texto,"Down, No, Steady, Up",predictora
+tolbutamide,nominal,2,"Si se administró tolbutamide y cómo cambió la dosis durante el ingreso (No, Down, Steady, Up).",texto,"No, Steady",predictora
+pioglitazone,nominal,4,"Si se administró pioglitazone y cómo cambió la dosis durante el ingreso (No, Down, Steady, Up).",texto,"Down, No, Steady, Up",predictora
+rosiglitazone,nominal,4,"Si se administró rosiglitazone y cómo cambió la dosis durante el ingreso (No, Down, Steady, Up).",texto,"Down, No, Steady, Up",predictora
+acarbose,nominal,4,"Si se administró acarbose y cómo cambió la dosis durante el ingreso (No, Down, Steady, Up).",texto,"Down, No, Steady, Up",predictora
+miglitol,nominal,4,"Si se administró miglitol y cómo cambió la dosis durante el ingreso (No, Down, Steady, Up).",texto,"Down, No, Steady, Up",predictora
+troglitazone,nominal,2,"Si se administró troglitazone y cómo cambió la dosis durante el ingreso (No, Down, Steady, Up).",texto,"No, Steady",predictora
+tolazamide,nominal,3,"Si se administró tolazamide y cómo cambió la dosis durante el ingreso (No, Down, Steady, Up).",texto,"No, Steady, Up",predictora
+examide,constante,1,"Si se administró examide y cómo cambió la dosis durante el ingreso (No, Down, Steady, Up). Columna sin variación (siempre No).",texto,No,excluir (un solo valor)
+citoglipton,constante,1,"Si se administró citoglipton y cómo cambió la dosis durante el ingreso (No, Down, Steady, Up). Columna sin variación (siempre No).",texto,No,excluir (un solo valor)
+insulin,nominal,4,"Si se administró insulin y cómo cambió la dosis durante el ingreso (No, Down, Steady, Up).",texto,"Down, No, Steady, Up",predictora
+glyburide-metformin,nominal,4,"Si se administró glyburide-metformin y cómo cambió la dosis durante el ingreso (No, Down, Steady, Up).",texto,"Down, No, Steady, Up",predictora
+glipizide-metformin,nominal,2,"Si se administró glipizide-metformin y cómo cambió la dosis durante el ingreso (No, Down, Steady, Up).",texto,"No, Steady",predictora
+glimepiride-pioglitazone,nominal,2,"Si se administró glimepiride-pioglitazone y cómo cambió la dosis durante el ingreso (No, Down, Steady, Up).",texto,"No, Steady",predictora
+metformin-rosiglitazone,nominal,2,"Si se administró metformin-rosiglitazone y cómo cambió la dosis durante el ingreso (No, Down, Steady, Up).",texto,"No, Steady",predictora
+metformin-pioglitazone,nominal,2,"Si se administró metformin-pioglitazone y cómo cambió la dosis durante el ingreso (No, Down, Steady, Up).",texto,"No, Steady",predictora
+change,nominal,2,Si hubo algún cambio en la medicación de la diabetes durante el ingreso.,texto,"Ch, No",predictora
+diabetesMed,nominal,2,Si se recetó algún medicamento para la diabetes durante el ingreso.,texto,"No, Yes",predictora
+readmitted,objetivo,3,"Si el paciente volvió al hospital tras el alta: en menos de 30 días (<30), después de 30 días (>30) o nunca (NO).",texto,"<30, >30, NO",objetivo
